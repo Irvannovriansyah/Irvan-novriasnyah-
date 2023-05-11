@@ -21,8 +21,12 @@ class TestLogin(unittest.TestCase):
         driver.find_element(By.CLASS_NAME,"orangehrm-login-button").click()
         time.sleep(1)
 
-    def tearDown(self):
-        self.browser.close()
+        driver.find_element(By.LINK_TEXT,"PIM").click()
+        time.sleep(3)
+        
+
+    # def tearDown(self):
+    #     self.browser.close()
 
 if __name__ == "__main__":
  unittest.main()
