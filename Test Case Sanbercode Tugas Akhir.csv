@@ -1,0 +1,100 @@
+id,title,description,preconditions,postconditions,tags,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_type,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases,parameters
+1,Login,"login website orangHRM","akses website aplikasi orangeHRM","menampilkan halaman login pada website",,medium,normal,usability,positive,is-not-automated,actual,no,e2e,classic,"1. melakukan test pada kolom username
+2. melakukan test pada kolom password
+3. melakukan test pada tombol login
+4. melakukan test pada forgot password
+","1. menampilkan username pada kolom
+2. menampilkan password dengan hidden teks
+3. masuk ke halaman home pada website orangeHRM
+4. menampilkan halaman forgot password dan isi username
+","1. masukkan username dengan benar
+2. masukkan password dengan benar
+3. click pada tombol login
+4. click pada teks forgot password
+",,,,,,,
+2,logout,"logout pada website aplikasi orangHRM","1. Akses pada website aplikasi
+2. Masukkan username dengan benar
+3. Masukkan password dengan benar
+4. Click tombol login 
+5. Click profil di bagian kanan atas
+6. Click tombol logout","1. Menampilkan halaman website aplikasi
+2. Menampilkan halaman home pada website aplikasi",,medium,normal,usability,positive,is-not-automated,actual,no,e2e,classic,"1. Melakukan test pada menu about
+2. Melakukan test pada menu support
+3. Melakukan test pada menu change password
+4. melakukan test pada menu logout
+","1. Menampilakn tentang company profile
+2. Menampilkan halaman support company
+3. Menampilkan halaman untuk change password
+4. Menampilkan halaman login pada website aplikasi
+","1. Click menu about
+2. Click menu support
+3. Click menu change password
+4. Click menu logout
+",,,,,,,
+3,"Menu sidebar Admin - job - jobtitle","Melakukan test sidebar menu admin - job - jobtitle","1. Akses website aplikasi
+2. Masukkan username dan password yang terdaftar
+3. Click tombol login
+4. Click menu sidebar Admin
+5. Clik menu job
+6. Click menu jobtitle","Menampilkan halaman website aplikasi ke menu sidebar admin-job-jobtitle",,medium,minor,smoke,positive,is-not-automated,actual,no,e2e,classic,"1. Melakukan test pada menu Add
+2. Melakukan test pada logo pulpen
+3. Melakukan test pada logo trash
+","1. Mempilkan halaman menu add jobtitle
+2. Menampilkan halaman untuk mengedit jobtitle
+3. Menghapus jobtitle pada list
+","1. Click menu Add
+2. Click logo pulpen
+3. Click logo trash
+",,,,,,,
+4,"Menu admin- Organization- Locations","Melakukan test pada menu admin- Organization- Locaitons","1. Akses website aplikasi
+2. Masukkan username dan password yang terdaftar
+3. Click tombol login
+4. Click menu job
+5. Click menu organization
+6. Click menu locations","Menampilkan halaman website aplikasi menu job- organization- locations",,medium,minor,usability,positive,is-not-automated,actual,no,e2e,classic,"1. Melakukan test pada menu reset
+2. Melakukan test pada menu search
+3. Melakukan test pada logo pulpen
+4. Melakukan test pada logo trash
+","1. Menghapus data yang telah diisi
+2. Menampilkan data location yang telah terdaftar
+3. Menampilkan halaman mengedit data locations
+4. Menghapus data pada list locations
+","1. Click menu reset
+2. Click search
+3. Click logo pulpen
+4. Click logo trash
+",,,,,,,
+5,"Menu PIM- Employee List","Melakukan test pada menu PIM- Employee List","1. Akses website aplikasi
+2. Masukkan username dan password yang terdaftar
+3. Click login 
+4. Click menu PIM
+5. Click menu employee list","Menampilkan halaman website menu PIM- employee list",,medium,normal,usability,positive,is-not-automated,actual,no,e2e,classic,"1. Melakukan test pada menu Add
+2. Melakukan test pada menu reset
+3. Melakukan test pada menu search
+4. Melakukan test pada logo pulpen
+5. Melakukan test pada logo trash
+","1. Menampilkan halaman menu Add employee list
+2. Menghapus data yang telah diisi
+3. Menampilkan data yang telah terdaftar pada employee list
+4. Menampilkan halaman mengedit data employee list
+5. Menghapus data employee list
+","1. Click menu Add
+2. Click menu reset
+3. Click menu search
+4. Click logo pulpen
+5. Click logo trash
+",,,,,,,
+6,"Menu PIM- Add Employee","Melakukan test pada menu PIM- Add Employee","1. Akses website aplikasi
+2. Masukkan username dan password yang terdaftar
+3. Click tombol login
+4. Click menu PIM
+5. Click menu Add Employee","Menampilkan halaman website add employee",,medium,normal,usability,positive,is-not-automated,actual,no,e2e,classic,"1. Melakukan test pada logo plus(+) pada foto profile
+2. Melakukan test pada menu cancel
+3. Melakukan test pada menu save
+","1. Menampilkan gambar foto profile
+2. Kembali ke halaman employee list
+3. Menyimpan data yang telah diisii sebagai employee
+","1. Click logo plus (+)
+2. Click menu cancel
+3. Click menu save
+",,,,,,,
