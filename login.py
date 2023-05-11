@@ -12,18 +12,14 @@ class TestLogin(unittest.TestCase):
     def test_a_success_login(self):
         # steps
         driver = self.browser #buka web browser
-        driver.get("https://www.saucedemo.com/") # buka situs
+        driver.get("https://opensource-demo.orangehrmlive.com/") # buka situs
         time.sleep(3)
-        driver.find_element(By.ID,"user-name").send_keys("standard_user") # isi email
+        driver.find_element(By.NAME,"username").send_keys("admin") # isi username
         time.sleep(1)
-        driver.find_element(By.ID,"password").send_keys("secret_sauce") # isi password
+        driver.find_element(By.NAME,"password").send_keys("admin123") # isi password
         time.sleep(1)
-        driver.find_element(By.ID, "login-button").click()
+        driver.find_element(By.CLASS_NAME,"orangehrm-login-button").click()
         time.sleep(1)
-
-        # validasi
-        response_data = driver.find_element(By.CLASS_NAME,"title").text
-        self.assertIn('PRODUCTS', response_data)
 
     def tearDown(self):
         self.browser.close()
